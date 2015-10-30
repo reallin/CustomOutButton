@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="#FFFFFF"
+	    android:id="@+id/popwin_layout"
+	    android:gravity="center_horizontal"
+	    android:layout_alignParentTop="true"
+	    android:orientation="vertical" >
+	    <View 
+			android:layout_width="fill_parent"
+			android:layout_height="4dp"
+			android:background="#F56A55"/>
+	    <ListView
+	        android:id="@+id/select"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:descendantFocusability="blocksDescendants"
+	        android:divider="@drawable/basis_menu_divierline"
+	        android:dividerHeight="1dp"
+	        android:background="#FFFFFF"
+	        android:fadeScrollbars="true" >
+	    </ListView>
+	    <View 
+	        android:layout_width="fill_parent"
+			android:layout_height="1dp"
+			android:background="#DDDDDD" />
+	    <View 
+	        android:layout_width="fill_parent"
+			android:layout_height="8dp"
+			android:background="#F2F2F2" />
+	    <View 
+	        android:layout_width="fill_parent"
+			android:layout_height="1dp"
+			android:background="#DDDDDD" />
+	    <Button 
+	        android:id="@+id/cancel_but"
+			android:layout_width="fill_parent"
+			android:layout_height="45dp"
+			android:textSize="15sp"
+			android:gravity="center"
+			android:text="取消"
+			android:textColor="#444444"
+			android:background="#FFFFFF" />
+	</LinearLayout>
+</RelativeLayout>	

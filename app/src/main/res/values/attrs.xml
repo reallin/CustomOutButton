@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="OutButton">
+        <attr name="btnbackground" format="reference|color"/>
+        <attr name="leftText" format="string"/>
+        <attr name="leftSize" format="dimension"/>
+        <attr name="leftColor" format="color"/>
+        <attr name="rightColor" format="color"/>
+        <attr name="rightText" format="string"/>
+        <attr name="rightSize" format="dimension"/>
+    </declare-styleable>
+
+</resources>
